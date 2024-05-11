@@ -44,3 +44,17 @@
 .read-the-docs {
   color: #888;
 }
+
+.div-main {
+  position: relative;
+}
+
+.div-1::before {
+  position: absolute;
+  content: "";
+  top: 5.5em;
+  left: 1.5em;
+  width: 4px;
+  height: 6.8em;
+  background-color: #00d8ff;
+}
